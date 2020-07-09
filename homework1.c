@@ -14,8 +14,7 @@ int main() {
     c = ((a >> 24) & 0xFF);
     printf("Fourth byte is %x\n", c);
     
-    a = (a & 0xFFFF00FF);
-    a = (a | 0x0000AA00);
+    a = (a & 0xFFFF00FF) | 0x0000AA00;
     printf("New a = %x\n", a);
     
     return 0;
