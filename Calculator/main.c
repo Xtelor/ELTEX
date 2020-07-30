@@ -12,40 +12,40 @@
             menu(result);
 
             printf("Choose an option: ");
-	          scanf("%d", &option);
+	    scanf("%d", &option);
 
-	          switch(option)
-	          {
-	              case 1:
-		                result = sum(num1, num2);
+	    switch(option)
+	    {
+	        case 1:
+		    result = sum(num1, num2);
                 break;
 
-		            case 2:
-		                result = subtraction(num1, num2);
+		case 2:
+		    result = subtraction(num1, num2);
                 break;
 
-	              case 3:
-				            result = multiplication(num1, num2);
+	        case 3:
+		    result = multiplication(num1, num2);
                 break;
 
-			          case 4:
-				            result = division(num1, num2);
+	        case 4:
+	            result = division(num1, num2);
                 break;
 
-			          case 5:
-				            result = 0.0;
+		case 5:
+	            result = 0.0;
                 break;
 
-			          case 6:
+		case 6:
                     system("clear");
-				            exit(0);
+		    exit(0);
                 break;
 
-			          default:
-				            printf("Error: wrong option.\n");
+		default:
+		    printf("Error: wrong option.\n");
                     exit(0);
-				        break;
-		       }
+         	break;
+	    }
         }
         return 0;
     }
