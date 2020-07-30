@@ -3,8 +3,8 @@
     void menu(float Result)
     {
         printf("   Calculator \n");
-	      printf("~~~~~~~~~~~~~~~\n");
-	      printf("    Options:  \n");
+	printf("~~~~~~~~~~~~~~~\n");
+	printf("    Options:  \n");
         printf("  1)    +     \n");
         printf("  2)    -     \n");
         printf("  3)    *     \n");
